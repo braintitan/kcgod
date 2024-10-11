@@ -161,6 +161,8 @@ const GlobalHead = props => {
           <meta property='article:publisher' content={FACEBOOK_PAGE} />
         </>
       )}
+      <meta name='impact-site-verification' value='ac5012a4-2339-4176-b3d8-e522438fc03e' />
+
       {children}
     </Head>
   )
