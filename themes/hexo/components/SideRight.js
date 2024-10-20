@@ -114,8 +114,8 @@ export default function SideRight(props) {
         </Card> 
 
         <Card>
-          <a href="https://www.zebracat.ai?via=kcgod" target='_blank' rel='nofollow noreferrer'>
-            <Image src="/images/zebracat.jpeg" alt="zebracat AI" width={0} height={0} layout='responsive' style={{ width: '100%', height: 'auto' }}/>
+          <a href="https://www.dpbolvw.net/5a100js0ys-FHGHINHGNLFHHPJHHMO" target='_blank' rel='nofollow noreferrer'>
+            <Image src="/images/e-file.jpeg" alt="e-file, e file, tax file" width={0} height={0} layout='responsive' style={{ width: '100%', height: 'auto' }}/>
           </a>
         </Card> 
         
