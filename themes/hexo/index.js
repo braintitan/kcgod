@@ -151,15 +151,15 @@ const LayoutBase = props => {
                 {/* 主区上部嵌入 */}
                 {slotTop}
 
-                <a href="https://www.dpbolvw.net/ce106iqzwqyDFEFGLFELJDFFLNHLHL" target="_blank" rel="noreferrer nofollow">
+                {/* <a href="https://www.dpbolvw.net/ce106iqzwqyDFEFGLFELJDFFLNHLHL" target="_blank" rel="noreferrer nofollow">
                   <Image src="/images/interserver-3.gif" alt="interserver VPS | web hosting | dedicated server" border="0" width={0} height={0} layout='responsive' style={{ width: '80%', height: 'auto' }}/>
-                </a>
+                </a> */}
 
                 {children}
                 
-                <a href="https://www.jdoqocy.com/9n121zw41w3JLKLMRLKRPJLLRTNRMR" target="_blank" rel="noreferrer nofollow">
+                {/* <a href="https://www.jdoqocy.com/9n121zw41w3JLKLMRLKRPJLLRTNRMR" target="_blank" rel="noreferrer nofollow">
                   <Image src="/images/interserver-4.gif" alt="interserver VPS | web hosting | dedicated server" border="0" width={0} height={0} layout='responsive' style={{ width: '80%', height: 'auto' }}/>
-                </a>
+                </a> */}
               </Transition>
             </div>
 

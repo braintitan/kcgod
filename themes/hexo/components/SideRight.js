@@ -1,12 +1,12 @@
 import Live2D from '@/components/Live2D'
-// import { siteConfig } from '@/lib/config'
+import { siteConfig } from '@/lib/config'
 // import { useGlobal } from '@/lib/global'
 import dynamic from 'next/dynamic'
-// import CONFIG from '../config'
-// import { AnalyticsCard } from './AnalyticsCard'
+import CONFIG from '../config'
+import { AnalyticsCard } from './AnalyticsCard'
 // import Announcement from './Announcement'
 import Card from './Card'
-// import Catalog from './Catalog'
+import Catalog from './Catalog'
 // import CategoryGroup from './CategoryGroup'
 import { InfoCard } from './InfoCard'
 // import LatestPostsGroup from './LatestPostsGroup'
@@ -40,8 +40,8 @@ export default function SideRight(props) {
     // latestPosts,
     // tags,
     // currentTag,
-    // showCategory,
-    // showTag,
+     showCategory,
+     showTag,
     rightAreaSlot,
     // notice,
     // className
@@ -64,19 +64,19 @@ export default function SideRight(props) {
       </div>
 
       <div className='sticky top-8 space-y-4'>
-        {/* {post && post.toc && post.toc.length > 1 && (
+        {post && post.toc && post.toc.length > 1 && (
           <Card>
             <Catalog toc={post.toc} />
           </Card>
-        )} */}
+        )}
 
       
 
-        {/* {siteConfig('HEXO_WIDGET_ANALYTICS', null, CONFIG) && (
+        {siteConfig('HEXO_WIDGET_ANALYTICS', null, CONFIG) && (
           <AnalyticsCard {...props} />
-        )} */}
+        )}
 
-        {/* {showCategory && (
+        {showCategory && (
           <Card>
             <div className='ml-2 mb-1 '>
               <i className='fas fa-th' /> {locale.COMMON.CATEGORY}
@@ -86,13 +86,13 @@ export default function SideRight(props) {
               categories={categories}
             />
           </Card>
-        )} */}
+        )}
 
-        {/* {showTag && (
+        {showTag && (
           <Card>
             <TagGroups tags={tags} currentTag={currentTag} />
           </Card>
-        )} */}
+        )}
 
         {/* {siteConfig('HEXO_WIDGET_LATEST_POSTS', null, CONFIG) &&
           latestPosts &&
@@ -107,7 +107,7 @@ export default function SideRight(props) {
         {/* {siteConfig('COMMENT_WALINE_SERVER_URL') &&
           siteConfig('COMMENT_WALINE_RECENT') && <HexoRecentComments />} */}
 
-        <Card>
+        {/* <Card>
           <a href="https://www.tkqlhce.com/ag106biroiq57678D76DB57799DDCC" target='_blank' rel='nofollow noreferrer'>
             <Image src="/images/interserver-1.gif" alt="zebracat AI" width={0} height={0} layout='responsive' style={{ width: '100%', height: 'auto' }}/>
           </a>
@@ -123,7 +123,7 @@ export default function SideRight(props) {
           <a href="https://textcortex.com?via=kcgod" target='_blank' rel='nofollow noreferrer'>
             <Image src="/images/text-cortext.jpeg" alt="Text Cortext, AI-powered writing assistant" width={0} height={0} layout='responsive' style={{ width: '100%', height: 'auto' }} />
           </a>
-        </Card>
+        </Card> */}
 
         {rightAreaSlot}
         <FaceBookPage />
