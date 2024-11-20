@@ -109,19 +109,19 @@ export default function SideRight(props) {
 
         <Card>
           <a href="https://www.siteground.com/go/yml5ivahtg" target='_blank' rel='nofollow'>
-            <Image src="/images/siteground-1.jpg" alt="Siteground" width={0} height={0} layout='responsive' style={{ width: '100%', height: 'auto' }}/>
+            <Image src="/images/siteground-1.jpg" alt="Siteground, web hosting" width={0} height={0} layout='responsive' style={{ width: '100%', height: 'auto' }}/>
           </a>
         </Card> 
 
         <Card>
-          <a href="https://www.dpbolvw.net/5a100js0ys-FHGHINHGNLFHHPJHHMO" target='_blank' rel='nofollow'>
-            <Image src="/images/e-file.jpeg" alt="e-file, e file, tax file" width={0} height={0} layout='responsive' style={{ width: '100%', height: 'auto' }}/>
+          <a href="https://www.cloudways.com/en/?id=1553541&amp;a_bid=4f03b9d0" target='_blank' rel='nofollow'>
+            <Image src="/images/cloudways.jpg" alt="cloudways,vps, web hosting, dedicated server" width={0} height={0} layout='responsive' style={{ width: '100%', height: 'auto' }}/>
           </a>
         </Card> 
         
         <Card>
           <a href="https://bluehost.sjv.io/c/5128239/2194913/11352" target='_blank' rel='nofollow'>
-            <Image src="/images/bluehost-1.png" alt="Bluehost" width={0} height={0} layout='responsive' style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/bluehost-1.png" alt="Bluehost, vps, web hosting, dedicated server" width={0} height={0} layout='responsive' style={{ width: '100%', height: 'auto' }} />
           </a>
         </Card>
 

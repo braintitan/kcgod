@@ -149,17 +149,18 @@ const LayoutBase = props => {
                 leaveTo='opacity-0 -translate-y-16'
                 unmount={false}>
                 {/* 主区上部嵌入 */}
-                {slotTop}
+                {slotTop}     
 
-                <a href="https://www.jdoqocy.com/click-101161076-11337760" target="_blank" rel="nofollow">
-                  <Image src="/images/interserver-5.gif" alt="interserver VPS | web hosting | dedicated server" border="0" width={0} height={0} layout='responsive' style={{ width: '80%', height: 'auto' }}/>
+                <a href="https://www.siteground.com/go/xjetan6uau" target="_blank" rel="nofollow">
+                  <Image src="/images/siteground-banner.jpg" alt="Siteground | web hosting" border="0" width={0} height={0} layout='responsive' style={{ width: '80%', height: 'auto' }}/>
                 </a>
 
                 {children}
                 
-                <a href="https://www.jdoqocy.com/9n121zw41w3JLKLMRLKRPJLLRTNRMR" target="_blank" rel="nofollow">
-                  <Image src="/images/interserver-4.gif" alt="interserver VPS | web hosting | dedicated server" border="0" width={0} height={0} layout='responsive' style={{ width: '80%', height: 'auto' }}/>
+                <a href="https://www.cloudways.com/en/?id=1553541&amp;a_bid=4f03b9d0" target="_blank" rel="nofollow">
+                  <Image src="/images/cloudways-banner.jpg" alt="Cloudways | web hosting | dedicated server" border="0" width={0} height={0} layout='responsive' style={{ width: '80%', height: 'auto' }}/>
                 </a>
+                
               </Transition>
             </div>
 
