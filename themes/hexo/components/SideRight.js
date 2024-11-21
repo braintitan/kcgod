@@ -107,11 +107,7 @@ export default function SideRight(props) {
         {/* {siteConfig('COMMENT_WALINE_SERVER_URL') &&
           siteConfig('COMMENT_WALINE_RECENT') && <HexoRecentComments />} */}
 
-        <Card>
-          <a href="https://www.siteground.com/go/yml5ivahtg" target='_blank' rel='nofollow'>
-            <Image src="/images/siteground-1.jpg" alt="Siteground, web hosting" width={0} height={0} layout='responsive' style={{ width: '100%', height: 'auto' }}/>
-          </a>
-        </Card> 
+      
 
         <Card>
           <a href="https://www.cloudways.com/en/?id=1553541&amp;a_bid=4f03b9d0" target='_blank' rel='nofollow'>
